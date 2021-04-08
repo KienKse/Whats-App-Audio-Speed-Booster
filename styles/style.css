@@ -1,0 +1,11 @@
+/* SELECT */
+#mySelect, #mySelect option {
+  width: 60px !important;
+  padding: 5px;
+  position: relative;
+  font-family: 'Trocchi', serif;
+  background-color: DodgerBlue;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}

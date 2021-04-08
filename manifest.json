@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Whats App Audio Booster",
+    "version": "2.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "styles/style.css"
+            ],
+            "js": [
+                "scripts/index.js"
+            ]
+        }
+    ]
+}
